@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(0, 7, 7);
+    font-family: "Oswald", sans-serif;
+    Verdana, sans-serif;
+    
+}
+header {
+    background-color: grey;
+    font-size: xx-large;
+   padding: 10px;
+   border: 1px black solid;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   grid-template-rows: 50% 50% ; 
+   column-gap: 10px;
+   row-gap: 10px;
+    
+}
+#img-persona{
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+    margin: 0 auto;
+    border-radius: 50%; 
+    overflow: hidden;
+}
+main {
+    background-color: grey;
+   text-align: justify;
+   width: fit-content;
+   height: fit-content;
+   padding: 10px;
+   border: 1px black solid;
+   background-color: grey;
+   text-align: center;
+   font-size: x-large;
+    padding: 10px;
+  border: 1px black solid;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 50% 50% ; 
+  column-gap: 5px;
+  row-gap: 5px;
+}
+footer{
+    background-color: grey;
+    text-align: left;
+   border: 1px black solid;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   justify-self: center;
+}
+h2{
+    border: 2px solid white;
+    text-align: center;
+}
+h3 {
+    color: #0c0521;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid white;
+    text-align: center;
+    
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-color: rgb(75, 71, 71);
+}
+
+
+#trayectoria{
+    text-align: center;
+    border: 1px solid white;
+}
+#links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+}
+main section ul{
+    background-color: grey;
+}
+.oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    width: 100px;
+  }
+
+  .nombre{
+    text-align: center;
+    margin: 1em;
+    
+  }
+
+  #header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .redes{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+  }
+
+  button{
+    background-color: transparent;
+    border: none;
+  }
+
+@media screen and (max-width: 480px) {
+    #header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+
+    #links{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+
+    #img-persona{
+        position: relative;
+        width: 150px; 
+        height: 150px; 
+        margin: 0 auto;
+        border-radius: 50%; 
+        overflow: hidden;
+    }
+
+    #links{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+
+}
+  
+/*comentario en CSS*/
+/* ctrl+} para etiqueta de comentario */
+/*.class #id */
+/* Proppiedad 'important' para remarcar la unica caracteristica dada al objeto es la que contenga esta propiedad */
+/* 'font-family' tipo de letra, puede ser predeterminado o importado de google */
+/* div: contenedor generico sin un significado semantico */
+/* 'box model' tieme: Content, padding, border, margin */
